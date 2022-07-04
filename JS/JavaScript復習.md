@@ -9,6 +9,12 @@ document.getElementById('trigger')
 ```
 document.getElementById('trigger').addEventListener('click', process);
 ```
-
+- 処理（関数）定義
+```
+function process() {
+  document.getElementById('target')
+ }
+```
+ 
 
 
