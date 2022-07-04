@@ -1,5 +1,5 @@
-# JavaScript復習
-- JS各フレームワーク学習前にざっと
+# JavaScript復習、実装の一例
+- JS各フレームワーク学習前にざっと復習
 - 要素を取得(id="trigger")
 ```
 document.getElementById('trigger')
@@ -22,6 +22,11 @@ function process() {
   document.getElementById('target').textContent = 'テキスト変えます。';
       
 }
+ ```
+ - css 適用
+ ```
+       document.getElementById('trigger').classList.add('changed');
+    }
  ```
  
 
