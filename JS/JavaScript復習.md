@@ -4,3 +4,11 @@
 ```
 document.getElementById('trigger')
 ```
+
+- 何かイベント起きたら、何らかの処理してね（今回はクリックイベント, 処理プロセス）
+```
+document.getElementById('trigger').addEventListener('click', process);
+```
+
+
+
