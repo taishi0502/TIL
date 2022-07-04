@@ -9,12 +9,20 @@ document.getElementById('trigger')
 ```
 document.getElementById('trigger').addEventListener('click', process);
 ```
-- 処理（関数）定義
+- 処理（関数）定義(p要素id="target")
 ```
 function process() {
   document.getElementById('target')
  }
 ```
+
+- targetidを取得し、テキストを変更するとか
+```
+function process() {
+  document.getElementById('target').textContent = 'テキスト変えます。';
+      
+}
+ ```
  
 
 
