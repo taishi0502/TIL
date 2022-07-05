@@ -1,5 +1,5 @@
 # JavaScript復習、実装の一例
-- JS各フレームワーク学習前にざっと復習
+- React学習前にざっと復習
 - 要素を取得(id="trigger")
 ```
 document.getElementById('trigger')
