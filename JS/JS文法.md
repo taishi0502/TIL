@@ -17,7 +17,7 @@ console.log('it\'s me!');
 console.log('hello\n wo\trld');
 console.log('hello'+'world');
 ```
-- 数値の計算
+- 演算子確認
 ```
 console.log(10 + 3); //13
 console.log(10 - 3); //7
