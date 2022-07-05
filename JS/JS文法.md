@@ -8,4 +8,13 @@ React学習前にざっと
 ```
 /*コメント*/
 ```
+- ''or"",\n,\t
+```
+console.log('hello');
+console.log("hello");
+console.log("it's me!");
+console.log('it\'s me!');
+console.log('hello\n wo\trld');
+console.log('hello'+'world');
+```
 
