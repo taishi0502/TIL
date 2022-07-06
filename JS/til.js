@@ -1,20 +1,29 @@
 'use strict';
 
-const score = 60;
-const name = 'kimura';
-
-if (score >= 50 ){
-  if (name === 'kimura'){
-    console.log('Good job!');
-  }
+const signal ='green';
+if (signal === 'red'){
+  console.log('stop');
+} else if (signal === 'yellow'){
+  console.log('Caution!');
+} else if (signal === 'blue'){
+  console.log('Go');
 }
-//↑入子になってて見づらいから論理演算子使おうね
+//switch使った方が良いよね
 
+switch(signal/*ここは比較したい値*/){
+  case 'red':
+    console.log('stop');
+    break;
+  case 'yellow':
+    console.log('Caution');
+    break;
+  case 'blue':
+  case 'green':
+    console.log('Go');
+    break;
 
-//&&なおかつ（AND)
-//||もしくは（OR)
-// !〜ではない（NOT)
+    default/*どれにも当てはまらない場合のデフォルト値*/ : 
+    console.log('Wrong signal');
+    break;
 
-if (score >= 50 && name === 'kimura' ){
-  console.log('Great');
 }
