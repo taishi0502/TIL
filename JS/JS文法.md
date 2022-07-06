@@ -78,7 +78,18 @@ console.log(typeof null);
 // til.js:6 undefined
 // til.js:7 object
 ```
+- 数字からなる文字列
+```
+//文字列も数値と認識
+console.log('5' * 3);
+console.log('5' - 3);
+//+の場合は文字列の連結認識
+console.log('5' + 3);
 
+console.log(parseInt('hello', 10));
+//NaN
+```
+s
 
 
 
