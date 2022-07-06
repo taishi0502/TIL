@@ -28,4 +28,25 @@ console.log(10 ** 3); //10の3乗
 console.log(2+ 10 * 3); //32
 console.log((2 + 10) * 3); //36
 ```
+- 定数
+```
+const price = 150;
+console.log(price * 140);
+console.log(price * 160);
+```
+
+- 変数
+```
+// 定数　const
+// 変数　let
+
+let price = 150;
+console.log(price * 140);
+console.log(price * 160);
+
+price = 170;
+console.log(price * 140);
+console.log(price * 160);
+```
+
 
