@@ -1,16 +1,11 @@
 'use strict';
 
-const price = 1200;
-
-console.log(price > 1000); //true
-console.log(price < 1000); //false
-console.log(price >= 1000); //true
-console.log(price <= 1000); //false
-console.log(price === 1000); //false
-console.log(price !== 1000); //true
-
-
-//false <-0, null, undefined, '' , false
-//ture <- それ以外
-console.log(Boolean(0));
-console.log(Boolean('hello'));
+const score = 70;
+if (score >= 80){
+  console.log('Great!!');
+} else if (score >= 60){
+  console.log('Good');
+} else  { 
+  console.log('OK....');
+}
+//波括弧の中ブロックって言います

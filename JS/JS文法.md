@@ -106,6 +106,20 @@ console.log(price !== 1000); //true
 console.log(Boolean(0));
 console.log(Boolean('hello'));
 ```
+- 条件分岐
+```
+const score = 70;
+if (score >= 80){
+  console.log('Great!!');
+} else if (score >= 60){
+  console.log('Good');
+} else  { 
+  console.log('OK....');
+}
+//波括弧の中ブロックって言います
+```
+
+
 
 
 
