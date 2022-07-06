@@ -1,11 +1,20 @@
 'use strict';
 
-const score = 70;
-if (score >= 80){
-  console.log('Great!!');
-} else if (score >= 60){
-  console.log('Good');
-} else  { 
-  console.log('OK....');
+const score = 60;
+const name = 'kimura';
+
+if (score >= 50 ){
+  if (name === 'kimura'){
+    console.log('Good job!');
+  }
 }
-//波括弧の中ブロックって言います
+//↑入子になってて見づらいから論理演算子使おうね
+
+
+//&&なおかつ（AND)
+//||もしくは（OR)
+// !〜ではない（NOT)
+
+if (score >= 50 && name === 'kimura' ){
+  console.log('Great');
+}
