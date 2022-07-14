@@ -244,7 +244,23 @@ showAd();
 console.log('Alisa id great!!');
 showAd('Footer Ad');
 console.log('taishi id great!!');
-```g
+```
+
+- returnで値を返す
+３回のテストの合計点を計算する処理をよくする
+
+```
+function sum(a, b, c){
+  return a + b + c;
+};
+
+sum (1,2,3)
+sum (3,4,5)
+
+const total = sum (1,2,3) + sum(3,4,5);
+console.log(total);
+```
+
 
 
 
