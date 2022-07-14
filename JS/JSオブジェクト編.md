@@ -50,3 +50,17 @@ for(let i = 0; i < scores.length; i++){
   console.log(`Scores${i}: ${scores[i]}`)
 }
 ```
+
+- splice()途中の要素を変更
+```
+a.splice(変化する位置、削除する数、追加する数)
+```
+```
+const scores = [80, 90, 40, 70]
+scores.splice(1, 1, 40, 50);
+
+for(let i = 0; i < scores.length; i++){
+  console.log(`Scores${i}: ${scores[i]}`)
+}
+```
+
