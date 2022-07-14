@@ -171,6 +171,7 @@ switch(signal/*ここは比較したい値*/){
 ```
 
 - forを使ったループ処理
+特定の処理を繰り返し実行するため
 ```
   // console.log('hello');
   // console.log('hello' + i);
@@ -178,6 +179,26 @@ switch(signal/*ここは比較したい値*/){
 }
 >>>hello1,hello2....
 ```
+
+- whileを使ったループ
+指定した条件を満たす間特定の処理を繰り返す
+```
+let hp = 100;
+
+while (hp > 0 ){
+  console.log(`${hp} HP left!`);
+  hp -= 15;
+}
+>>>til.js:6 100 HP left!
+til.js:6 85 HP left!
+til.js:6 70 HP left!
+til.js:6 55 HP left!
+til.js:6 40 HP left!
+til.js:6 25 HP left!
+til.js:6 10 HP left!
+```
+
+
 
 
 
