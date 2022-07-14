@@ -211,7 +211,21 @@ for (let i = 1; i <= 10; i ++){
   console.log(i)
 }
 ```
-break途中で処理やめたい
+
+-関数で処理をまとめてみよう
+```
+function showAd(){
+  //ここだけ修正で済む
+}
+
+
+console.log('Tom id great!!');
+showAd();
+console.log('Bob id great!!');
+showAd();
+console.log('Alisa id great!!');
+showAd();
+console.log('taishi id great!!');
 ```
 
 
