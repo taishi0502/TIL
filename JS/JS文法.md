@@ -170,6 +170,17 @@ switch(signal/*ここは比較したい値*/){
 }
 ```
 
+- forを使ったループ処理
+```
+  // console.log('hello');
+  // console.log('hello' + i);
+  console.log(`hello ${i}`);
+}
+>>>hello1,hello2....
+```
+
+
+
 
 
 
