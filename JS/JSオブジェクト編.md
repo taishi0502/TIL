@@ -9,3 +9,20 @@
   console.log(scores)
 }
 ```
+
+- 配列要素にアクセス
+```
+  const scores = [80, 90, 40];
+  console.log(scores[1])
+```
+```
+//値の変更
+  const scores = [80, 90, 40];
+  scores[2] = 44;
+  console.log(scores)
+```
+```
+// 配列の要素数を取得
+  const scores = [80, 90, 40];
+  console.log(scores.length)
+```
