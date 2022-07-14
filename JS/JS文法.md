@@ -198,6 +198,21 @@ til.js:6 25 HP left!
 til.js:6 10 HP left!
 ```
 
+- continue, breakを使う
+continueスキップ
+```
+
+for (let i = 1; i <= 10; i ++){
+  
+    if (i % 3 === 0){
+      continue//iが３の倍数の時にスキップする
+    }
+  
+  console.log(i)
+}
+```
+break途中で処理やめたい
+```
 
 
 
