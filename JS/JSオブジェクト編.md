@@ -64,3 +64,50 @@ for(let i = 0; i < scores.length; i++){
 }
 ```
 
+- スプレッド構文
+配列の中に別の配列を展開
+```
+const otherscores = [80, 90, 40, 70]
+
+const scores = [100,...otherscores] // 『...がスプレッド構文』別の配列を展開
+console.log(scores)
+```
+```
+関数の中でも
+const otherscores = [80, 90]
+
+const scores = [100,...otherscores] // 『...がスプレッド構文』別の配列を展開
+
+function sum (a,b){
+  console.log(a+b);
+}
+sum(...otherscores)
+```
+- 分割代入
+```
+const scores = [80, 90, 40, 70]
+
+const [a, b, c, d] =scores;
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+```
+```
+定数に入れたいのは最初の２つだけであとの二つは配列のままでよかった場合
+const [a, b, ...others] = scores　// この...はレスト構文
+console.log(a)
+console.log(b)
+console.log(others)
+```
+```
+値を交換
+let x = 30;
+let y = 70;
+[x, y] = [y, x];
+console.log(x)
+console.log(y)
+// >>>x=70, y=30
+```
+
+
