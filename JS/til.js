@@ -1,14 +1,17 @@
 'use strict';
 
-// const point = [100, 180];
+const otherPoints = {
+  r: 4,
+  color: 'red'
+}
+
+
 const point = {
   x: 100, // プロパティ
-  y: 180
+  y: 180,
+  ...otherPoints
 };
-point.x = 120 //xを120にする
-
-console.log(point.x)
-console.log(point['y'])
-
-point.z = 90; // 追加
-delete point.y; // 消す
+const {x, r, ...others} = point;
+console.log(x)
+console.log(r)
+console.log(others)
