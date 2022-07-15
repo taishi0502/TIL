@@ -291,6 +291,62 @@ function showTime(){
 const intervalId = setInterval(showTime, 1000);
 ```
 
+- 例外処理
+```
+const name = 5;
+
+try {
+  console.log(name.toUpperCase())
+} catch (e){
+  console.log(e);
+}
+
+console.log('finish')
+```
+
+# クラス
+
+```
+const posts = [
+  {
+    text: 'Javascriptの勉強中',
+    likeCount: 0
+  },
+  {
+    text: 'プログラミング楽しい',
+    likeCount: 2
+  }
+]
+
+  function show(post){
+    console.log(`${post.text} - ${post.likeCount}いいね`)
+  }
+
+  show(posts[0])
+```
+- クラスを作る
+```
+class Post {
+  
+    constructor(text){
+    this.text = text;
+    this.likeCount = 0;
+    }
+
+    show() {
+      console.log(`${this.text} - ${this.likeCount}いいね`)
+    }
+  }
+
+ const posts = [
+   new Post('JavaScriptの勉強中'),
+   new Post('プログラミング楽しい')
+ ];
+
+
+posts[0].show();
+posts[1].show();
+```
  
 
 
