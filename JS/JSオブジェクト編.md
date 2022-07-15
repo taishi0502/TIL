@@ -191,6 +191,28 @@ console.log(x)
 console.log(r)
 console.log(others)
 ```
+- Object.keys()を使う
+```
+const point = {
+  x: 100, // プロパティ
+  y: 180,
+};
+const keys = Object.keys(point)// すべてキーを配列で取得できる
+keys.forEach( key => {
+  console.log(`key: ${key} Value: ${point[key]}`)
+})
+```
+```
+配列やオブジェクトを自由に組み合わせて複雑なデータ構造を作ることもできる
+const points = [
+  {x: 30, y: 20 },
+  {x: 10, y: 50 },
+  {x: 40, y: 40 }
+]
+console.log(points[1].y)
+```
+
+
 
 
 
