@@ -109,5 +109,25 @@ console.log(x)
 console.log(y)
 // >>>x=70, y=30
 ```
+- forEach()について
+```
+const scores = [80, 90, 40, 70]
 
+scores.forEach((score, index) => {
+  console.log(`score: ${index}:${score}`)
+});
+```
+
+- map()について
+配列の各要素に何らかの処理をして別の配列を作りたい場合の時などに使う
+```
+２０円ずつ値上げした結果を配列で欲しかった場合
+// const updatePrices = prices.map((price) => {
+//   return price + 20;
+// });
+//短くかく
+const updatePrices = prices.map( price => price + 20);
+console.log(updatePrices)
+
+```
 
