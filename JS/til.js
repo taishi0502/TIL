@@ -1,9 +1,17 @@
 'use strict';
 
-const d = [2019, 11, 14]
-console.log(d.join('/'))
-// >>> 2019/11/4
+const scores = [10, 3, 9]
+let sum = 0
 
-const t = '17:08:24'
-console.log(t.split(':'))
-// >>> ['17', '08', '24']
+scores.forEach(score => {
+  sum += score;
+});
+
+const avg = sum / scores.length
+// console.log(sum)
+// console.log(avg)
+
+console.log(Math.floor(avg)) //7
+console.log(Math.ceil(avg)) //8
+console.log(Math.round(avg)) //7
+console.log(avg.toFixed(3)) //7.333
