@@ -130,4 +130,31 @@ const updatePrices = prices.map( price => price + 20);
 console.log(updatePrices)
 
 ```
+- filter()を使う
+配列の要素をチェックして条件に合うものだけを抽出して別の配列として取得することができるfilter()
+```
+const numbers = [1, 4, 7, 8, 10];
+
+// const evenNumbers = numbers.filter(number => {
+//     if (number % 2 === 0){
+//       return true
+//     } else {
+//       return false
+//     }
+// });
+//短くかく
+const evenNumbers = numbers.filter(number =>  number % 2 === 0);
+console.log(evenNumbers)
+```
+
+- オブジェクトを作る
+```
+// const point = [100, 180];
+const point = {
+  x: 100, // プロパティ
+  y: 180
+};
+console.log(point)
+```
+
 
