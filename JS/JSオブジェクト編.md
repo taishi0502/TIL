@@ -211,6 +211,22 @@ const points = [
 ]
 console.log(points[1].y)
 ```
+- 変数を代入してみる
+```
+let x = 1;
+let y = x;
+x = 5;
+console.log(x) //5
+console.log(y) //1
+```
+```
+変数の挙動
+let x = [1, 2];
+let y = x; // <<< yはxの値がどこに格納されているか
+x[0] = 5;
+console.log(x) //[5, 2]
+console.log(y) //[5, 2]  <<<[1, 2]ではない
+```
 
 
 
