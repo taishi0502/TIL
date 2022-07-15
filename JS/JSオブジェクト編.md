@@ -256,6 +256,16 @@ console.log(Math.ceil(avg)) //8
 console.log(Math.round(avg)) //7
 console.log(avg.toFixed(3)) //7.333
 ```
+
+- 日時
+```
+
+const d = new Date()
+console.log(d)
+
+console.log(`${d.getMonth() + 1}月${d.getDate()}日`)
+```
+
  
 
 
