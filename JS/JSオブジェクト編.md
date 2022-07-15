@@ -265,7 +265,18 @@ console.log(d)
 
 console.log(`${d.getMonth() + 1}月${d.getDate()}日`)
 ```
-
+- alertとconfirm
+```
+alert('hello')
+const answer = confirm('削除しますか')
+if(answer){
+  console.log('削除しました')
+   
+} else {
+  console.log('キャンセルしました。')
+}
+```
+g
  
 
 
