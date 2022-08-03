@@ -47,3 +47,19 @@ Hello!
   this is looooong
 text!
 ```
+### 数値の計算
+```
+<?php
+echo 10 + 3 .PHP_EOL;
+echo 10 - 3 .PHP_EOL;
+echo 10 * 3 .PHP_EOL;
+echo 10 / 3 .PHP_EOL; >>> 3.33333...
+
+echo 10 % 3 .PHP_EOL; >>> 1
+echo 10** 3 .PHP_EOL; >>> 1000
+
+echo 2 + 10 * 3 .PHP_EOL; >>> 32
+echo (2 + 10) * 3 .PHP_EOL; >>> 36
+echo 2 + '3' .PHP_EOL; >>> 5 //数値っぽい文字列もなるべく数値に変換しようとする
+```
+
